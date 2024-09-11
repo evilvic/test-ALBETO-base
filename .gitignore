@@ -1,0 +1,39 @@
+# Ignorar entornos virtuales
+.env/
+venv/
+
+# Ignorar archivos de configuración de entornos Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar configuraciones de editor o IDE
+.vscode/
+.idea/
+
+# Ignorar archivos relacionados con sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos grandes de modelos que no quieres subir
+albert-base-spanish/model.safetensors
+onnx/model.onnx
+
+# Ignorar archivos temporales y backups
+*.bak
+*.tmp
+
+# Ignorar archivos de instalación y dependencias
+*.egg-info/
+*.egg
+dist/
+build/
+*.spec
+
+# Ignorar caché de pytest
+.pytest_cache/
